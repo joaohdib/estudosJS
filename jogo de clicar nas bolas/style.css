@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#botao {
+    position:relative;
+
+}
+
+#bola1, #bola2, #bola3 {
+    position:absolute;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display:none;
+}
+
+#score {
+    position: absolute;
+    top: 0;
+    left: 1200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000; /* Azul claro */
+    outline: 2px solid #5F9EA0; /* Cor do contorno */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f8ff; /* Fundo azul claro */
+}
+
+
+#retangulo {
+    width: 1000px;
+    height: 600px;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative; /* Adicionado para posicionar as bolas corretamente */
+}
