@@ -8,7 +8,6 @@ function atualizarHora() {
 }
 
 const hora = document.getElementById("hora");
-hora.textContent = 'oi';
 
 
 setInterval(atualizarHora, 1000);
